@@ -1,0 +1,183 @@
+/* Reset  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* root variable */
+:root {
+  --color-primary-light: #00bf6f;
+  --color-primary-dark: #009657;
+  --color-body: #000;
+  --color-bg-light-gray: #f6f6f6;
+  --color-bg-dark-gray: #f0f0f0;
+  --color-white: #fff;
+  --avatar-size: 50px;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  color: var(--color-body);
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.8rem;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 2.6rem;
+  }
+}
+
+/* buttons */
+.btn {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1.4rem;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn--primary {
+  background-color: var(--color-primary-light);
+  color: var(--color-white);
+}
+
+.btn--secondary {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-white);
+}
+
+.btn--block {
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.6rem;
+  }
+  .btn--block {
+    font-size: 2rem;
+  }
+}
+
+/* List */
+
+.list {
+  list-style: none;
+  font-size: 1.8rem;
+}
+.list--inline .list__item {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+/* container */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+
+.nav__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-out;
+}
+
+.nav.nav__expanded .nav__list {
+  max-height: 100vh;
+  opacity: 1;
+}
+
+.nav__item {
+  margin-top: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.nav__item > a {
+  text-decoration: none;
+  color: #444;
+  display: block;
+  padding: 0.5rem 0;
+  transition: all 0.4s ease-out;
+}
+
+.nav__item > a:hover {
+  color: var(--color-primary);
+}
+
+.nav__item.cta {
+  font-size: 1.4rem;
+  border: 0;
+}
+
+.nav__item.cta > a {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.nav__item .btn {
+  padding: 1rem 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+  }
+
+  .nav__toggler {
+    display: none;
+  }
+  .nav__list {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    opacity: 1;
+    max-height: 100%;
+  }
+  .nav__item {
+    margin-right: 2rem;
+    margin-top: 0;
+    font-size: 1.5rem;
+    border: 0;
+  }
+}
