@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/font/fonts.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>بانی مد</title>
     <meta name="description" content="این وبسایت فروشگاه لباس می باشد." />
-    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -15,18 +16,45 @@
   <body>
     <header class="main-header">
       <nav class="nav container">
-        <a href="#" class="btn btn--primary btn--block">ورود / ثبت نام</a>
+        <div class="for-user">
+          <span class="icon-container">
+            <svg class="icon">
+              <use
+                xlink:href="/assets/images/svg-sprite.svg#shopping-bag"
+              ></use>
+            </svg>
+          </span>
+          <a href="#" class="btn btn--primary btn--none">ورود / ثبت نام</a>
+        </div>
+        <div class="form-wrapper">
+          <form>
+            <input
+              class="form--icon"
+              type="text"
+              placeholder="جست و جو در میان بیش از 500 برند معتبر"
+            />
+          </form>
+        </div>
 
-        <ul class="list nav__list">
-          <li class="nav__item"><a href="#">پشتیبانی</a></li>
-          <li class="nav__item"><a href="#">خدمات کسب و کارها</a></li>
-          <li class="nav__item"><a href="#">فرصت های شغلی</a></li>
-          <li class="nav__item"><a href="#">وبلاگ</a></li>
-        </ul>
-        <a href="#">
-          <img src="/assets/images/logo.svg" alt="" />
+        <a href="#" class="logo">
+          <img src="/assets/images/logo.svg" alt="" class="logo__img" />
+        </a>
+
+        <a href="#" class="btn btn--primary btn--gift">
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="/assets/images/svg-sprite.svg#gift"></use>
+            </svg>
+          </span>
+          <span> انتخاب را هدیه کنید + 5% اعتبار بیشتر دیجیتالی! </span>
         </a>
       </nav>
+      <ul class="list nav__list">
+        <li class="nav__item"><a href="#">پشتیبانی</a></li>
+        <li class="nav__item"><a href="#">خدمات کسب و کارها</a></li>
+        <li class="nav__item"><a href="#">فرصت های شغلی</a></li>
+        <li class="nav__item"><a href="#">وبلاگ</a></li>
+      </ul>
     </header>
   </body>
 </html>
