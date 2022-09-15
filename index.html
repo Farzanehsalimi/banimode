@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/font/fonts.css" />
+    <meta name="description" content="این یک سایت فروشگاهی است." />
     <link rel="stylesheet" href="./style.css" />
-    <title>بانی مد</title>
-    <meta name="description" content="این وبسایت فروشگاه لباس می باشد." />
+    <link rel="stylesheet" href="./assets/font/fonts.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <title>بانی مد</title>
   </head>
   <body>
-    <header class="main-header">
+    <header>
       <nav class="nav container">
         <div class="for-user">
           <span class="icon-container">
-            <svg class="icon">
+            <svg class="icon icon__shopping-bag">
               <use
                 xlink:href="/assets/images/svg-sprite.svg#shopping-bag"
               ></use>
@@ -26,21 +26,27 @@
           </span>
           <a href="#" class="btn btn--primary btn--none">ورود / ثبت نام</a>
         </div>
-        <div class="form-wrapper">
-          <form>
+
+        <div class="search-box">
+          <form
+            action="https://google.com/search"
+            method="get"
+            class="search-bar"
+          >
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
             <input
-              class="form--icon"
               type="text"
-              placeholder="جست و جو در میان بیش از 500 برند معتبر"
+              placeholder="جستجو در میان بیش از 500 برند معتبر"
+              name="q"
             />
           </form>
         </div>
 
-        <a href="#" class="logo">
-          <img src="/assets/images/logo.svg" alt="" class="logo__img" />
+        <a href="" class="logo"
+          ><img src="./assets/images/logo.svg" class="logo__img" alt="logo" />
         </a>
 
-        <a href="#" class="btn btn--primary btn--gift">
+        <a href="" class="btn btn--primary btn--gift">
           <span class="icon-container">
             <svg class="icon">
               <use xlink:href="/assets/images/svg-sprite.svg#gift"></use>
@@ -48,13 +54,68 @@
           </span>
           <span> انتخاب را هدیه کنید + 5% اعتبار بیشتر دیجیتالی! </span>
         </a>
+
+        <div class="bottom-nav">
+          <div>
+            <a href="" class="bottom-nav__a bottom-nav__img">
+              <img
+                src="./assets/images/banimode.png"
+                class="icon-bottom-nav"
+                alt=""
+              />
+              <span class="bottom-nav__span">خانه</span>
+            </a>
+          </div>
+
+          <div>
+            <a href="" class="bottom-nav__a">
+              <span class="icon-container">
+                <svg class="icon icon-bottom-nav">
+                  <use xlink:href="/assets/images/svg-sprite.svg#search"></use>
+                </svg>
+              </span>
+              <span class="bottom-nav__span">جستجو و دسته بندی</span>
+            </a>
+          </div>
+
+          <div>
+            <a href="" class="bottom-nav__a">
+              <span class="icon-container">
+                <svg class="icon icon-bottom-nav">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#shopping-bag"
+                  ></use>
+                </svg>
+              </span>
+              <span class="bottom-nav__span">سبد خرید</span>
+            </a>
+          </div>
+
+          <div>
+            <a href="" class="bottom-nav__a">
+              <span class="icon-container">
+                <svg class="icon icon-bottom-nav">
+                  <use xlink:href="/assets/images/svg-sprite.svg#heart"></use>
+                </svg>
+              </span>
+              <span class="bottom-nav__span">علاقه مندی ها</span>
+            </a>
+          </div>
+
+          <div>
+            <a href="" class="bottom-nav__a">
+              <span class="icon-container">
+                <svg class="icon icon-bottom-nav">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#account-circle"
+                  ></use>
+                </svg>
+              </span>
+              <span class="bottom-nav__span">پروفایل</span>
+            </a>
+          </div>
+        </div>
       </nav>
-      <ul class="list nav__list">
-        <li class="nav__item"><a href="#">پشتیبانی</a></li>
-        <li class="nav__item"><a href="#">خدمات کسب و کارها</a></li>
-        <li class="nav__item"><a href="#">فرصت های شغلی</a></li>
-        <li class="nav__item"><a href="#">وبلاگ</a></li>
-      </ul>
     </header>
   </body>
 </html>
