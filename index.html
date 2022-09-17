@@ -15,104 +15,693 @@
   </head>
   <body>
     <header>
-      <nav class="nav container">
-        <div class="for-user">
-          <span class="icon-container">
-            <svg class="icon icon__shopping-bag">
-              <use
-                xlink:href="/assets/images/svg-sprite.svg#shopping-bag"
-              ></use>
-            </svg>
-          </span>
-          <a href="#" class="btn btn--primary btn--none">ورود / ثبت نام</a>
-        </div>
+      <nav class="nav">
+        <div class="container nav__top-part">
+          <div class="for-user">
+            <span class="icon-container">
+              <svg class="icon icon__shopping-bag">
+                <use
+                  xlink:href="/assets/images/svg-sprite.svg#shopping-bag"
+                ></use>
+              </svg>
+            </span>
+            <a href="#" class="btn btn--primary btn--none">ورود / ثبت نام</a>
+          </div>
 
-        <div class="search-box">
-          <form
-            action="https://google.com/search"
-            method="get"
-            class="search-bar"
-          >
-            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-            <input
-              type="text"
-              placeholder="جستجو در میان بیش از 500 برند معتبر"
-              name="q"
-            />
-          </form>
-        </div>
-
-        <a href="" class="logo"
-          ><img src="./assets/images/logo.svg" class="logo__img" alt="logo" />
-        </a>
-
-        <a href="" class="btn btn--primary btn--gift">
-          <span class="icon-container">
-            <svg class="icon">
-              <use xlink:href="/assets/images/svg-sprite.svg#gift"></use>
-            </svg>
-          </span>
-          <span> انتخاب را هدیه کنید + 5% اعتبار بیشتر دیجیتالی! </span>
-        </a>
-
-        <div class="bottom-nav">
-          <div>
-            <a href="" class="bottom-nav__a bottom-nav__img">
-              <img
-                src="./assets/images/banimode.png"
-                class="icon-bottom-nav"
-                alt=""
+          <div class="search-box">
+            <form
+              action="https://google.com/search"
+              method="get"
+              class="search-bar"
+            >
+              <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+              <input
+                type="text"
+                placeholder="جستجو در میان بیش از 500 برند معتبر"
+                name="q"
               />
-              <span class="bottom-nav__span">خانه</span>
-            </a>
+            </form>
           </div>
 
-          <div>
-            <a href="" class="bottom-nav__a">
-              <span class="icon-container">
-                <svg class="icon icon-bottom-nav">
-                  <use xlink:href="/assets/images/svg-sprite.svg#search"></use>
-                </svg>
-              </span>
-              <span class="bottom-nav__span">جستجو و دسته بندی</span>
-            </a>
+          <a href="" class="logo"
+            ><img src="./assets/images/logo.svg" class="logo__img" alt="logo" />
+          </a>
+
+          <a href="" class="btn btn--primary btn--gift">
+            <span class="icon-container">
+              <svg class="icon">
+                <use xlink:href="/assets/images/svg-sprite.svg#gift"></use>
+              </svg>
+            </span>
+            <span> انتخاب را هدیه کنید + 5% اعتبار بیشتر دیجیتالی! </span>
+          </a>
+
+          <div class="middle-nav">
+            <div class="wrapper">
+              <!-- <div class="logo"><a href="#">CodingNepal</a></div> -->
+              <!-- <input type="radio" name="slider" id="menu-btn" /> -->
+              <!-- <input type="radio" name="slider" id="close-btn" /> -->
+              <ul class="nav-links">
+                <!-- <label for="close-btn" class="btn close-btn"
+                  ><i class="fas fa-times"></i
+                ></label> -->
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- <li>
+                  <a href="#" class="desktop-item">Dropdown Menu</a> -->
+                <!-- <input type="checkbox" id="showDrop" />
+                  <label for="showDrop" class="mobile-item"
+                    >Dropdown Menu</label
+                  > -->
+                <!-- <ul class="drop-menu">
+                    <li><a href="#">Drop menu 1</a></li>
+                    <li><a href="#">Drop menu 2</a></li>
+                    <li><a href="#">Drop menu 3</a></li>
+                    <li><a href="#">Drop menu 4</a></li>
+                  </ul>
+                </li> -->
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#" class="desktop-item">Mega Menu</a>
+                  <!-- <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Mega Menu</label> -->
+                  <div class="mega-box">
+                    <div class="content">
+                      <!-- <div class="row">
+                        <img src="img.jpg" alt="" />
+                      </div> -->
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Email Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Personal Email</a></li>
+                          <li><a href="#">Business Email</a></li>
+                          <li><a href="#">Mobile Email</a></li>
+                          <li><a href="#">Web Marketing</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Security services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Site Seal</a></li>
+                          <li><a href="#">VPS Hosting</a></li>
+                          <li><a href="#">Privacy Seal</a></li>
+                          <li><a href="#">Website design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <!-- <label for="menu-btn" class="btn menu-btn"
+                ><i class="fas fa-bars"></i
+              ></label> -->
+            </div>
           </div>
 
-          <div>
-            <a href="" class="bottom-nav__a">
-              <span class="icon-container">
-                <svg class="icon icon-bottom-nav">
-                  <use
-                    xlink:href="/assets/images/svg-sprite.svg#shopping-bag"
-                  ></use>
-                </svg>
-              </span>
-              <span class="bottom-nav__span">سبد خرید</span>
-            </a>
-          </div>
+          <div class="bottom-nav">
+            <div>
+              <a href="" class="bottom-nav__a bottom-nav__img">
+                <img
+                  src="./assets/images/banimode.png"
+                  class="icon-bottom-nav"
+                  alt=""
+                />
+                <span class="bottom-nav__span">خانه</span>
+              </a>
+            </div>
 
-          <div>
-            <a href="" class="bottom-nav__a">
-              <span class="icon-container">
-                <svg class="icon icon-bottom-nav">
-                  <use xlink:href="/assets/images/svg-sprite.svg#heart"></use>
-                </svg>
-              </span>
-              <span class="bottom-nav__span">علاقه مندی ها</span>
-            </a>
-          </div>
+            <div>
+              <a href="" class="bottom-nav__a">
+                <span class="icon-container">
+                  <svg class="icon icon-bottom-nav">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#search"
+                    ></use>
+                  </svg>
+                </span>
+                <span class="bottom-nav__span">جستجو و دسته بندی</span>
+              </a>
+            </div>
 
-          <div>
-            <a href="" class="bottom-nav__a">
-              <span class="icon-container">
-                <svg class="icon icon-bottom-nav">
-                  <use
-                    xlink:href="/assets/images/svg-sprite.svg#account-circle"
-                  ></use>
-                </svg>
-              </span>
-              <span class="bottom-nav__span">پروفایل</span>
-            </a>
+            <div>
+              <a href="" class="bottom-nav__a">
+                <span class="icon-container">
+                  <svg class="icon icon-bottom-nav">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#shopping-bag"
+                    ></use>
+                  </svg>
+                </span>
+                <span class="bottom-nav__span">سبد خرید</span>
+              </a>
+            </div>
+
+            <div>
+              <a href="" class="bottom-nav__a">
+                <span class="icon-container">
+                  <svg class="icon icon-bottom-nav">
+                    <use xlink:href="/assets/images/svg-sprite.svg#heart"></use>
+                  </svg>
+                </span>
+                <span class="bottom-nav__span">علاقه مندی ها</span>
+              </a>
+            </div>
+
+            <div>
+              <a href="" class="bottom-nav__a">
+                <span class="icon-container">
+                  <svg class="icon icon-bottom-nav">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#account-circle"
+                    ></use>
+                  </svg>
+                </span>
+                <span class="bottom-nav__span">پروفایل</span>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
