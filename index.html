@@ -11,6 +11,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <title>بانی مد</title>
   </head>
   <body>
@@ -53,7 +59,9 @@
                 <use xlink:href="/assets/images/svg-sprite.svg#gift"></use>
               </svg>
             </span>
-            <span> انتخاب را هدیه کنید + 5% اعتبار بیشتر دیجیتالی! </span>
+            <span class="btn__gift-text">
+              انتخاب را هدیه کنید + 5% اعتبار بیشتر دیجیتالی!
+            </span>
           </a>
 
           <div class="middle-nav">
@@ -710,5 +718,59 @@
         </div>
       </nav>
     </header>
+
+    <!-- carousel -->
+    <section class="carousel">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <img src="./images/carousel-1.jpg" class="carousel__img" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <img
+                src="./images/carousel-2.jpeg"
+                class="carousel__img"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <img
+                src="./images/carousel-3.jpeg"
+                class="carousel__img"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <img src="./images/carousel-4.jpg" class="carousel__img" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <img
+                src="./images/carousel-5.jpeg"
+                class="carousel__img"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
