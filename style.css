@@ -434,12 +434,11 @@ h3 {
 
 /* carousel */
 
-section {
-  position: relative;
-  width: 1075px;
+.carousel {
+  /* width: 1075px; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  position: relative;
 }
 
 .swiper {
@@ -448,7 +447,7 @@ section {
 
 .card {
   position: relative;
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .card .card-content {
@@ -457,28 +456,25 @@ section {
   align-items: center;
   position: relative;
   z-index: 100;
+  margin: 2rem 0;
 }
 
 .carousel__img {
   max-width: 100%;
-  height: 90rem;
+  height: 20rem;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  position: absolute;
-  bottom: -30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.6rem;
+.swiper-pagination {
+  position: absolute !important;
+  top: 23rem !important;
 }
 
 .swiper-pagination-bullet {
-  width: 85px;
-  height: 14px;
-  border-radius: 5px;
-  background: var(--color-primary-light);
+  width: 23px !important;
+  height: 4.5px !important;
+  border-radius: 5px !important;
+  background: var(--color-primary-light) !important;
+}
+
+@media screen and (min-width: 1024px) {
 }
